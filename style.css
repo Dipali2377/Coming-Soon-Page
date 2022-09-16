@@ -1,0 +1,43 @@
+body,
+      html {
+        height: 100%;
+      }
+      .background-img {
+        background-image: url(/Images/happy.webp);
+
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: black;
+
+        font-family: "Courier New", Courier, monospace;
+
+        font-size: 25px;
+      }
+      .logo-topleft {
+        position: absolute;
+        margin-top: 0;
+        left: 620px;
+        margin-bottom: 5px;
+      }
+      .logo-img {
+        top: 0;
+        border: 1px solid gray;
+        border-radius: 50%;
+        border: none;
+      }
+      .middle {
+        position: absolute;
+        top: 100px;
+        left: 480px;
+        font-style: italic;
+
+        font-family: "Snell Roundhand", cursive;
+      }
+      .bottom-left {
+        position: absolute;
+
+        right: 0;
+        margin-top: 300px;
+      }
